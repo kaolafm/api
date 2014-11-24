@@ -9,7 +9,7 @@
 
 ###快速入门
 ---
-调用考拉 api 接口前,请􏰁前向考拉 FM 申请 appid 及 secret key所有 api 调用必须经过签名认证。
+调用考拉 api 接口前,请提前向考拉FM 申请 appid 及 secret key,所有 api 调用必须经过签名认证。
 
 ###API手册(测试版)
 ---
