@@ -1,10 +1,28 @@
 ##签名算法
 ===
 
-1. 获取请求的http method;2. 获取请求的url,包括host和sheme,但不包括query_string的部分;3. 将http method和url按顺序拼接成新字符串;4. 在拼接好的字符串末尾追加上应用的secret_key(全部小写),并进行urlencode, 形成 base_string;
-**上述字符串的 MD5 值即为签名的值:****ex:** sign=MD5(urlencode($http_method$url$appid$secret_key));
-**例如:**appid: cntkg4748
-secret key: 8cd734379145a43e3f18d5b03f871508
-http: get http://open.kaolafm.com/v1/category/sublist?cid=100
-**签名方式为** sign = md5(urlencode(gethttp://open.kaolafm.com/v1/category/sublist cntkg47488cd734379145a43e3f18d5b03f871508))￼
-
+1. 获取请求的http method;
+2. 获取请求的url,包括host和sheme,但不包括query_string的部分;
+3. 将http method和url按顺序拼接成新字符串;
+4. 在拼接好的字符串末尾追加上应用的secret_key(全部小写),并进行urlencode, 形成 base_string;
+
+
+
+**上述字符串的 MD5 值即为签名的值:**
+
+**ex:** sign=MD5(urlencode($http_method$url$appid$secret_key));
+
+
+**例如:**
+appid: cntkg4748
+
+
+secret key: 8cd734379145a43e3f18d5b03f871508
+
+
+http: get http://open.kaolafm.com/v1/category/sublist?cid=100
+
+
+**签名方式为** sign = md5(urlencode(gethttp://open.kaolafm.com/v1/category/sublistcntkg47488cd734379145a43e3f18d5b03f871508))
+￼
+
