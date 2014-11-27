@@ -21,7 +21,7 @@
 |:------- |-------:|:------:|:----|
 | q   | string |   是   |搜索关键词
 | page    | string |   否   |页数 默认为1
-| size | string | 否 | 每页数据条数 默认为10
+| size | string | 否 | 每页数据条数 默认为10 最大50
 
 ###返回参数
 ---
@@ -36,7 +36,7 @@
 |categoryId|string|分类id
 |categoryName|string|分类名称
 |分页字段
-|total|string|	总数
+|total|string|	记录总数
 |prev|string|上一页 无上一页输出 -1
 |next|string|下一页 无下一页输出 -1
 
