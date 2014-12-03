@@ -18,14 +18,14 @@
 
 | 参数名称 | 类型    | 是否必需 |描述
 |:------- |-------:|:------:|:----|
-| deviceid  | string |   是   |标识唯一设备的id，用于请求openid（可使用手机udid,mac地址,vin等）
+| deviceid  | string |   是   |合作方标识唯一设备的id，用于请求openid（可使用手机udid,mac地址,vin等）
 
 ###返回参数
 ---
 
 | 参数名称 | 类型    | 描述 
 |:------- |-------:|:------:|
-| openid   | string |   我方根据合作方的deviceid生成的设备唯一标识  |
+| openid   | string |   考拉FM根据合作方的deviceid生成的设备唯一标识  |
 
 ###结果样例
 ---
