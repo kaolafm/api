@@ -4,7 +4,7 @@
 1. 获取请求的http method;
 2. 获取请求的url,包括host和sheme,但不包括query_string的部分;
 3. 将http method和url按顺序拼接成新字符串;
-4. 在拼接好的字符串末尾追加上应用的secret_key(全部小写),并进行urlencode(utf-8编码), 形成 base_string(全部小写);
+4. 在拼接好的字符串末尾追加上应用的appid(全部小写)，secret_key(全部小写),并进行urlencode(utf-8编码), 形成 base_string(全部小写);
 
 
 
