@@ -4,11 +4,11 @@
 1. 获取请求的http method;
 2. 获取请求的url,包括host和sheme,但不包括query_string的部分;
 3. 将http method和url按顺序拼接成新字符串;
-4. 在拼接好的字符串末尾追加上应用的appid(全部小写)，secret_key(全部小写),并进行urlencode(utf-8编码), 形成 base_string(全部小写);
+4. 在拼接好的字符串末尾追加上应用的appid(全部小写)，secret_key(全部小写),并进行urlencode(将字符串以 URL 编码，编码格式为utf8), 形成 base_string(全部小写);
 
 
 
-**上述字符串的 md5 值即为签名的值:**
+**上述字符串的 md5 （32位）值即为签名的值:**
 
 **ex:** sign=md5(urlencode($http_method$url$appid$secret_key),'utf-8');
 
