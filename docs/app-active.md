@@ -1,9 +1,11 @@
 ##激活当前设备
-===
+
+**注：每个设备仅需激活一次**
+
 ###请求方式
 ---
 
-**POST** `http://open.kaolafm.com/v1/app/active`
+**POST** `http://open.kaolafm.com/v1/app/active`<br>
 
 ###认证参数
 ---
