@@ -7,7 +7,7 @@
 5. 注：请将UTF-8编码后的所有字母改成小写字母后再进行MD5编码;
 
 
-**上述字符串的 md5 值（32位）即为签名的值:**
+**上述字符串的 md5 值（32位）即为签名的值（请把MD5后的字母变为小写）:**
 
 **ex:** sign=md5(urlencode($http_method$url$appid$secret_key),'utf-8');
 
