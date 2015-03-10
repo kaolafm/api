@@ -33,7 +33,7 @@
 | name  | string |   名称 |
 |img|string|封面
 |description|string|内容描述
-|categoryId|string|分类id 详见媒体类型分类(mztypes.md)
+|categoryId|string|分类id 详见[媒体类型分类](mztypes.md)
 |categoryName|string|分类名称
 |分页字段
 |total|string|	记录总数
