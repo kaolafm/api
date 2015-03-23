@@ -3,7 +3,7 @@
 1. 获取请求的http method;
 2. 获取请求的url,包括host和sheme,但不包括query_string的部分;
 3. 将http method和url按顺序拼接成新字符串;
-4. 在拼接好的字符串末尾追加上应用的secret_key(全部小写),并进行urlencode(将字符串以 URL 编码，编码格式为utf8), 形成 base_string(全部小写);<br>
+4. 在拼接好的字符串末尾追加上应用的Appid，secret_key(全部小写),并进行urlencode(将字符串以 URL 编码，编码格式为utf8), 形成 base_string(全部小写);<br>
 5. 注：请将UTF-8编码后的所有字母改成小写字母后再进行MD5编码;
 
 
