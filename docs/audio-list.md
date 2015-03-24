@@ -22,6 +22,8 @@
 | aid   | string |   是   |专辑id（即接口4当中type为0的cid）
 | page    | string |   否   |页数 默认为1
 | size | string | 否 | 每页数据条数 默认为10 最大50
+| rate   | string |   否   |音频码率 默认为原始码率，可选值为（32/64/128）
+
 
 
 ###返回参数
