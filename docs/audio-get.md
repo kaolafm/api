@@ -43,6 +43,8 @@
 | hostList.name | string	| 主持人名字
 | hostList.description	| string	| 主持人描述
 | hostList.img	| string	| 主持人图片
+| number	| string	| 期数
+
 
 
 
