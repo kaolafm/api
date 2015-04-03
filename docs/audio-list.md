@@ -23,7 +23,6 @@
 | page    | string |   否   |页数 默认为1
 | size | string | 否 | 每页数据条数 默认为10 最大50
 | rate   | string |   否   |音频码率 默认为原始码率，可选值为（32/64/128）
-| number	| string	| 期数
 
 
 
@@ -45,6 +44,7 @@
 | hostList.name | string	| 主持人名字
 | hostList.description	| string	| 主持人描述
 | hostList.img	| string	| 主持人图片
+| number	| string	| 期数
 | 分页字段
 | total	| string	| 记录总数
 | prev	| string	| 上一页 无上一页输出 -1
