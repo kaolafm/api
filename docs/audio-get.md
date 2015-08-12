@@ -44,6 +44,10 @@
 | hostList.description	| string	| 主持人描述
 | hostList.img	| string	| 主持人图片
 | number	| string	| 期数
+| publishDate | String  | 上线日期（毫秒）
+| md5   | String  | 文件md5
+| rate  | String  | 当前码率
+| fileSize | String | 文件大小(字节）
 
 
 
@@ -56,29 +60,28 @@
     {
 
     "result": {
-        "aid": "1000000767984",
-        "cover": "http://image.kaolafm.net/mz/images/201401/09ceced2-cb6f-4f41-85ca-cce0e3bdabe1/default.jpg",
-        "albumId": "1100000000033",
-        "albumName": null,
-        "title": "修改防卫合作指针美日各有盘算",
-        "playurl": "",
+        "aid": "1000001748680",
+        "cover": "http://image.kaolafm.net/mz/images/201508/5d966c83-cc41-41bb-af67-0168b34fe178/default.jpg",
+        "albumId": "1100000071593",
+        "albumName": "资讯每日评2015",
+        "title": "2K屏IUNI U3赶上秋季新机发布浪潮",
+        "playurl": "http://image.kaolafm.net/mz/mp3_32/201508/b3dd527a-be6c-4515-9f74-562fc6767ebb.mp3?appid=exvui9434&deviceid=100000034994587&audioid=1000001748680",
         "duration": null,
         "categoryId": "116",
         "clockId": "",
         "intercutTime": "",
-        "hostList": [
-            {
-                "name": "李红",
-                "description": "暂无",
-                "img": null
-            }
-        ],
+        "hostList": [ ],
         "albumDescription": "",
-        "description": "日本欲修改日美防卫合作指针应对中国"
+        "description": "2K屏IUNI U3赶上秋季新机发布浪潮",
+        "publishDate": "1438744285000",
+        "md5": "333333333",
+        "rate": "32",
+        "number": 1,
+        "fileSzie": "222"
     },
-    "requestId": "zcrzd9405141646633288338"
+    "requestId": "exvui94340.11439350793717116"
 
-    }
+}
 
 ###错误信息
 
