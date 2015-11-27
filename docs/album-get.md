@@ -31,9 +31,13 @@
 | name  | string |   专辑名称 |
 |cover|string|专辑封面
 |description|string|专辑描述
+|listenNum|int|专辑播放次数 
+|countNum|int|专辑碎片数量 
+|newDate|long|最新专辑更新时间 
 |hostList.name|string|主持人姓名
 |hostList.description|string|主持人描述
 |hostList.img|string|主持人图片
+
 
 
 
