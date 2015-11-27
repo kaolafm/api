@@ -48,7 +48,9 @@
 | md5   | String  | 文件md5
 | rate  | String  | 当前码率
 | fileSize | String | 文件大小(字节）
-
+| listenNum | int | 播放次数
+| likeNum | int | 点赞数
+| commentNum | int | 评论数
 
 
 
