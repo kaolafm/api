@@ -37,6 +37,7 @@
 |categoryName|string|分类名称
 |分页字段
 |total|string|	记录总数
+|totalPage|Integer|总页数
 |prev|string|上一页 无上一页输出 -1
 |next|string|下一页 无下一页输出 -1
 
