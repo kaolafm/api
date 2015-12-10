@@ -25,6 +25,7 @@
 10. [获取指定期详情](docs/audio-get.md)
 11. [获取直播列表](docs/livelist.md)
 12. [获取直播详情](docs/liveget.md)
+13. [获取分类下专辑TOP50](docs/albumtop.md)
 
 
 ###附录
