@@ -1,40 +1,57 @@
-获取指定指定直播列表
 
-请求方式
+##获取指定指定直播列表
+===
+###请求方式
+---
 
-GET http://open.kaolafm.com/v1/live/list?appid={appid}&sign={sign}&openid={openid}&liveId={liveId}
+**GET** `http://open.kaolafm.com/v1/live/list?appid={appid}&sign={sign}&openid={openid}&liveId={liveId}`
 
-认证参数
+###认证参数
+---
+| 参数名称 | 类型    | 是否必需 |描述
+|:------- |-------:|:------:|:----|
+| appid   | string |   是   |应用id
+| sign    | string |   是   |签名
+| openid  | string |   是   |设备标识
 
-参数名称	类型	是否必需	描述
-appid	string	是	应用id
-sign	string	是	签名
-openid	string	是	设备标识
-请求参数
 
-参数名称	类型	是否必需	描述
-liveId	string	是	直播id（即接口【获取指定分类下内容】当中返回的cid）
-返回参数
+###请求参数
+---
 
-参数名称	类型	描述
-id	Long	计划id 
-name	string	直播名称
-liveName	string	所属直播电台名称
-status	Integer	直播状态（0:已经结束,1:直播中,6未开播 7 已延期）
-listenNum	Integer	收听人数
-likeNum	Integer	赞数
-compereName	string	主播名称
-compereImg	string	主播头像
-backImg	string	封面图片
-playUrl	string	直播地址
-startTime	Long  开始时间 毫秒	
-finishTime	Long 结束时间 毫秒
-beginTime	String  开始时间 日期格式
-endTime	String	结束时间 日期格式
+| 参数名称 | 类型    | 是否必需 |描述
+|:------- |-------:|:------:|:----|
+| liveId   | string |   是   |直播id
 
-结果样例
 
-{
+
+###返回参数
+---
+
+| 参数名称 | 类型    | 描述 
+|:------- |:-------:|:------|
+|id	|Long	|计划id |
+|name	|string	|直播名称|
+|liveName |string|	所属直播电台名称|
+|status	|Integer|	直播状态（0:已经结束,1:直播中,6未开播 7 已延期）|
+|listenNum| Integer|	收听人数|
+|likeNum|Integer|	赞数|
+|compereName|	string|	主播名称|
+|compereImg|	string|	主播头像|
+|backImg|	string|	封面图片|
+|playUrl|	string|	直播地址|
+|startTime|	Long  |开始时间 毫秒|	
+|finishTime|	Long |结束时间 毫秒|
+|beginTime|	String|  开始时间 日期格式|
+|endTime|	String|	结束时间 日期格式|
+
+
+
+
+
+###结果样例
+---
+
+    {
 	"result": [{
 		"id": 1510459361,
 		"name": "疯狂直播间",
@@ -54,6 +71,6 @@ endTime	String	结束时间 日期格式
 	"requestId": "tgdbv86810.11449732692438954"
 }
 
-错误信息
+###错误信息
 
 请参考错误代码释义
