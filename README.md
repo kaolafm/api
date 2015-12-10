@@ -24,6 +24,7 @@
 9. [获取指定电台播单列表](docs/radio-playlist.md)
 10. [获取指定期详情](docs/audio-get.md)
 11. [获取直播列表](docs/livelist.md)
+12. [获取直播详情](docs/liveget.md)
 
 
 ###附录
