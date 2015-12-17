@@ -52,22 +52,38 @@
 
     {
 	"result": [{
-		"id": 1510459361,
+		"id": 1572446203,
 		"name": "疯狂直播间",
 		"liveName": "疯狂直播间",
 		"status": 6,
 		"listenNum": 1,
 		"likeNum": 0,
-		"compereName": "豆苗，小嘎",
+		"compereName": "豆苗 校草",
 		"compereImg": "http://image.kaolafm.net/mz/images/201503/facb3114-a7ce-4828-a151-71238eb4a63e/default.jpg",
 		"backImg": "http://image.kaolafm.net/mz/images/201503/facb3114-a7ce-4828-a151-71238eb4a63e/default.jpg",
-		"playUrl": "http://play.kaolafm.com/kaolafm/1403264830_1510459361/playlist.m3u8",
-		"startTime": 1449745200000,
-		"beginTime": "2015-12-10 19:00:00",
-		"endTime": "2015-12-10 20:00:00",
-		"finishTime": 1449748800000
+		"playUrl": "http://play.kaolafm.com/kaolafm/1403264830_1572446203/playlist.m3u8",
+		"startTime": 1450350000000,
+		"beginTime": "2015-12-17 19:00:00",
+		"endTime": "2015-12-17 20:00:00",
+		"finishTime": 1450353600000
+	},
+	{
+		"id": 1561083419,
+		"name": "醉想听你唱",
+		"liveName": "醉想听你唱",
+		"status": 6,
+		"listenNum": 1,
+		"likeNum": 0,
+		"compereName": "史蒂芬，陈醉",
+		"compereImg": "http://image.kaolafm.net/mz/images/201510/d6ff014f-908e-4d6d-b5d0-e6c7032ded65/default.jpg",
+		"backImg": "http://image.kaolafm.net/mz/images/201510/d6ff014f-908e-4d6d-b5d0-e6c7032ded65/default.jpg",
+		"playUrl": "http://play.kaolafm.com/kaolafm/1412517075_1561083419/playlist.m3u8",
+		"startTime": 1450353600000,
+		"beginTime": "2015-12-17 20:00:00",
+		"endTime": "2015-12-17 21:00:00",
+		"finishTime": 1450357200000
 	}],
-	"requestId": "tgdbv86810.11449732692438954"
+	"requestId": "tgdbv86810.11450319840880445"
 }
 
 ###错误信息
