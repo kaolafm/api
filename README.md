@@ -27,6 +27,7 @@
 12. [获取直播详情](docs/liveget.md)
 13. [获取分类下专辑TOP50](docs/albumtop.md)
 14. [获取指定期(碎片)所在专辑最新分页功能](docs/audiopage.md)
+15. [获取分类下全部直播计划](docs/liveall.md)
 
 
 ###附录
