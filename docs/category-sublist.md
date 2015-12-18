@@ -30,7 +30,8 @@
 | cid   | string |   分类id  |
 | name    | string |   分类名称  |
 | hasSub  | string |   是否有下级分类（0：否 1：是）  |
-|logo|string|logo
+|logo|string|logo|
+|type|int|类型 (0:专辑 1：电台 2：直播)
 ###结果样例
 ---
 
