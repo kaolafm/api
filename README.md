@@ -22,8 +22,6 @@
 7. [获取指定专辑下期列表](docs/audio-list.md)
 8. [获取电台详情](docs/radio-get.md)
 9. [获取指定电台播单列表](docs/radio-playlist.md)
-10. [获取指定期详情](docs/audio-get.md)
-11. [获取直播列表](docs/livelist.md)
 12. [获取直播详情](docs/liveget.md)
 13. [获取分类下专辑TOP50](docs/albumtop.md)
 14. [获取指定期(碎片)所在专辑最新分页功能](docs/audiopage.md)
