@@ -49,25 +49,24 @@
 
 ###结果样例
 ---
-
-    {
-	"result": [{
-		"id": 1510459361,
-		"name": "疯狂直播间",
-		"liveName": "疯狂直播间",
-		"status": 6,
-		"listenNum": 1,
-		"likeNum": 0,
-		"compereName": "豆苗，小嘎",
-		"compereImg": "http://image.kaolafm.net/mz/images/201503/facb3114-a7ce-4828-a151-71238eb4a63e/default.jpg",
-		"backImg": "http://image.kaolafm.net/mz/images/201503/facb3114-a7ce-4828-a151-71238eb4a63e/default.jpg",
-		"playUrl": "http://play.kaolafm.com/kaolafm/1403264830_1510459361/playlist.m3u8",
-		"startTime": 1449745200000,
-		"beginTime": "2015-12-10 19:00:00",
-		"endTime": "2015-12-10 20:00:00",
-		"finishTime": 1449748800000
-	}],
-	"requestId": "tgdbv86810.11449732692438954"
+{
+	"result": {
+		"id": 1567564270,
+		"name": "金荣时间",
+		"liveName": "金荣时间",
+		"status": 7,
+		"listenNum": 6,
+		"likeNum": 90,
+		"compereName": "金荣",
+		"compereImg": "http://image.kaolafm.net/mz/images/201509/7fa75ec0-d89d-46f5-8869-0d6f28ff4f32/default.jpg",
+		"backImg": "http://image.kaolafm.net/mz/images/201509/7fa75ec0-d89d-46f5-8869-0d6f28ff4f32/default.jpg",
+		"playUrl": "http://play.kaolafm.com/kaolafm/1444117418_1567564270/playlist.m3u8",
+		"startTime": 1452133800000,
+		"beginTime": "2016-01-07 10:30:00",
+		"endTime": "2016-01-07 20:05:00",
+		"finishTime": 1452168300000
+	},
+	"requestId": "ffzex14030.11452150614025428"
 }
 
 ###错误信息
