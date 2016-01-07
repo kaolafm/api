@@ -36,43 +36,17 @@
 ---
 
     {
-    "result": {
-    "total": "36",
-    "next": "2",
-    "prev": "-1",
-    "list": [
-      {
-        "cid": "1100000000134",
-        "name": "头条新闻",
-        "img": "http://image.kaolafm.net/mz/images/201411/1e98d14e-8451-4c96-ad40-b781bd089527/default.jpg",
-        "description": "聚焦重大新闻，还原事实真相",
-        "type": "0",
-        "categoryId": "116",
-        "categoryName": "资讯"
-      },
-      {
-        "cid": "1100000000058",
-        "name": "V言耸听",
-        "img": "http://image.kaolafm.net/mz/images/201406/142eb56f-1c95-4360-a25b-98c13286bb6e/default.jpg",
-        "description": "微：微天下；言：语言犀利 言之有物；耸：大V发声 挺拔耸立 观点明晰；听：带您倾听更直观的世界。这里是聚焦时事热点，聆听大V点评的考拉微言耸听",
-        "type": "0",
-        "categoryId": "116",
-        "categoryName": "资讯"
-      },
-      {
-        "cid": "1100000000279",
-        "name": "新闻7点整",
-        "img": "http://image.kaolafm.net/mz/images/201409/0d4681cc-bded-4692-a2f1-cd06513ae082/default.jpg",
-        "description": "这里有最严肃的新闻，这里有最调侃的语言，尽在《新闻7点整》，每天听尽天下事。",
-        "type": "0",
-        "categoryId": "116",
-        "categoryName": "资讯"
-      }
-    ]
-    },
-    "requestId": "zcrzd94051416464578806827"
-    }    
-
+	"result": [{
+		"cid": "1100000049165",
+		"name": "考拉直播间",
+		"img": "http://image.kaolafm.net/mz/images/201504/a88963e1-07c5-4526-99a2-fe7adabca92a/default.jpg",
+		"description": "名人、红人、大咖，做客考拉直播间，谈论不一样的生活。",
+		"type": "0",
+		"categoryId": "121",
+		"categoryName": "脱口秀"
+	}],
+	"requestId": "ffzex14030.11452135622206550"
+}
 
 ###错误信息
 
