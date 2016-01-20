@@ -32,6 +32,7 @@
 | cid   | string |   内容id  |
 | type    | string |   内容类型(0:专辑 1:碎片 3:电台 )   |
 | name  | string |   名称 |
+|playUrl|string|播放地址(只有返回结果为碎片时 这个值才有效 默认为 null)
 |img|string|封面
 |description|string|内容描述
 |categoryId|string|分类id 详见[媒体类型分类](mztypes.md)
