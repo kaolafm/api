@@ -29,7 +29,7 @@
 | 参数名称 | 类型    | 描述 
 |:------- |-------:|:------:|
 | cid   | string |   内容id  |
-| type    | string |   内容类型(0:专辑 1:期 3:电台 )   |
+| type    | string |   内容类型（0：专辑 1：电台 2:直播）   |
 | name  | string |   名称 |
 |img|string|封面
 |description|string|内容描述
