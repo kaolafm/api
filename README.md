@@ -27,7 +27,8 @@
 14. [获取指定期(碎片)所在专辑最新分页功能](docs/audiopage.md)
 15. [获取分类下全部直播计划](docs/liveall.md)
 16. [版本升级接口](docs/version.md)
-
+17. [版本升级接口](docs/top.md)
+18. [精选接口](docs/recommend.md)
 
 ###附录
 1. [签名算法](docs/signature.md)
