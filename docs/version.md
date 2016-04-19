@@ -42,7 +42,7 @@
     {
 
     "result": {
-		"updateType": "1",
+		"updateType": 1,
 		"updateVersion": "1.1.0",
 		"updateInfo": "1.新增【订阅】功能\n2.修复已知问题，优化体验\n",
 		"updateUrl": "http://open.kaolafm.com/kaolafm.apk"
