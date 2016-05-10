@@ -35,6 +35,10 @@
 |description|string|内容描述
 |categoryId|string|分类id
 |categoryName|string|分类名称
+|playUrl|string|碎片播放地址
+|albumName|string|专辑名称
+|albumId|string|专辑id
+|hostList|string|专辑id
 |分页字段
 |total|string|	记录总数
 |totalPage|Integer|总页数
