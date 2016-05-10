@@ -38,7 +38,9 @@
 |playUrl|string|碎片播放地址
 |albumName|string|专辑名称
 |albumId|string|专辑id
-|hostList|string|专辑id
+|hostList.name|string|主持人姓名
+|hostList.description|string|主持人描述
+|hostList.img|string|主持人图片
 |分页字段
 |total|string|	记录总数
 |totalPage|Integer|总页数
