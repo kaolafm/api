@@ -29,6 +29,7 @@
 16. [版本升级接口](docs/version.md)
 17. [排行榜接口](docs/top.md)
 18. [精选接口](docs/recommend.md)
+19. [传统电台列表接口](docs/broadcast-list.md)
 
 ###附录
 1. [签名算法](docs/signature.md)
