@@ -40,6 +40,12 @@
 |pagesize|int|每页显示多少条
 |count|int|总条数
 |totalPages|int|总页数
+|haveNext|int|是否有下一页
+|nextPage|int|下一页
+|havePre|int|是否有上一页
+|prePage|int|上一页
+|startNum|int|开始
+|endNum|int|结束
 
 
 ###结果样例
