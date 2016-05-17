@@ -24,6 +24,17 @@
 
 ###返回参数
 ---
+
+| 参数名称 | 类型    | 描述 
+|:------- |-------:|:------:|
+| id   | long | 传统电台id  |
+| name  | string |   名称 |
+|desc|string|电台描述
+|pic|string|电台封面
+|playUrl|string|播放url
+|classifyId|int|类型
+###结果样例
+---
 ```
 {
 result: {
