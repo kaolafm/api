@@ -41,6 +41,8 @@
 |hostList.name|string|主持人姓名
 |hostList.description|string|主持人描述
 |hostList.img|string|主持人图片
+|listenNum|Integer|收听数
+|aacUrl|String|aacUrl播放地址
 |分页字段
 |total|string|	记录总数
 |totalPage|Integer|总页数
