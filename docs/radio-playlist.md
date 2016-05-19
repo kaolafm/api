@@ -50,6 +50,7 @@
 | md5   | String  | 文件md5
 | rate  | String  | 当前码率
 | fileSize | String | 文件大小(字节）
+| aacUrl | String | aacUrl播放地址
 
 
 
