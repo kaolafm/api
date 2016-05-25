@@ -33,6 +33,8 @@
 | type    | string |   内容类型(0:专辑 1:碎片 3:电台 )   |
 | name  | string |   名称 |
 |playUrl|string|播放地址(只有返回结果为碎片时 这个值才有效 默认为 null)
+|aacUrl|String|aacUrl播放地址
+|m3u8Url|String|m3u8Url播放地址
 |img|string|封面
 |description|string|内容描述
 |categoryId|string|分类id 详见[媒体类型分类](mztypes.md)
