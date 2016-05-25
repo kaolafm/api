@@ -51,6 +51,7 @@
 | rate  | String  | 当前码率
 | fileSize | String | 文件大小(字节）
 | aacUrl | String | aacUrl播放地址
+| m3u8Url | String |  m3u8Url播放地址
 
 
 
