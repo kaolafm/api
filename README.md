@@ -19,7 +19,7 @@
 4. [获取指定分类下内容](docs/content-list.md)
 5. [搜索指定关键字内容](docs/content-search.md)
 6. [获取专辑详情](docs/album-get.md)
-7. [获取指定专辑下期列表](docs/audio-list.md)
+7. [获取指定专辑下列表](docs/audio-list.md)
 8. [获取电台详情](docs/radio-get.md)
 9. [获取指定电台播单列表](docs/radio-playlist.md)
 12. [获取直播详情](docs/liveget.md)
